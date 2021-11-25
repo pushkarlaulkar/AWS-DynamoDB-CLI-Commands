@@ -9,3 +9,19 @@ aws dynamodb describe-table --table-name StarShips
 ## Print output as table
 
 aws dynamodb describe-table --table-name StarShips --output table
+
+## Batch-Write-Item
+
+aws dynamodb batch-write-item --request-items file://batches/batch-000.json
+aws dynamodb batch-write-item --request-items file://batches/batch-001.json
+aws dynamodb batch-write-item --request-items file://batches/batch-002.json
+aws dynamodb batch-write-item --request-items file://batches/batch-003.json
+aws dynamodb batch-write-item --request-items file://batches/batch-004.json
+aws dynamodb batch-write-item --request-items file://batches/batch-005.json
+aws dynamodb batch-write-item --request-items file://batches/batch-006.json
+aws dynamodb batch-write-item --request-items file://batches/batch-007.json
+aws dynamodb batch-write-item --request-items file://batches/batch-008.json
+aws dynamodb batch-write-item --request-items file://batches/batch-009.json
+aws dynamodb batch-write-item --request-items file://batches/batch-010.json
+aws dynamodb batch-write-item --request-items file://batches/batch-011.json
+aws dynamodb batch-write-item --request-items file://batches/batch-012.json
