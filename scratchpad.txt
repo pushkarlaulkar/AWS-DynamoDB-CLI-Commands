@@ -37,3 +37,7 @@ aws dynamodb batch-get-item --request-items file://request-items.json
 ## Delete Item
 
 aws dynamodb delete-item --table-name StarShips --key file://key.json
+
+## Put Item
+
+aws dynamodb put-item --table-name StarShips --item file://item.json --return-consumed-capacity TOTAL
